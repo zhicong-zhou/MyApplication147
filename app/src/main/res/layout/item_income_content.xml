@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/item_income_content_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="李莉"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/comment_word"/>
+    <TextView
+        android:id="@+id/item_income_content_renz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已实名"
+        android:textColor="@color/comment_word"
+        android:textSize="13sp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

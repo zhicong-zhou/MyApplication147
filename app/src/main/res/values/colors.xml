@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_ban">#65000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="but_word">#737679</color>
+    <color name="gray">#EFEFEF</color>
+    <color name="home_word">#333333</color>
+    <color name="home_worded">#6db0ff</color>
+    <color name="gray1">#999999</color>
+
+    <!--选择图片-->
+    <color name="color_f6">#f6f6f6</color>
+
+    <color name="home_main">#6DB0FF</color>
+    <color name="black">#000</color>
+    <color name="shop_word">#323642</color>
+    <color name="comment_word">#767676</color>
+    <color name="black_word">#333</color>
+    <color name="red_word">#ff7057</color>
+    <color name="gray_word">#a3a3a3</color>
+    <color name="gray_shop">#DCDCDC</color>
+    <color name="pale_gray">#f7f7f8</color>
+    <color name="feedback_reply">#FBF7F8</color>
+    <color name="shop_details">#D07D80</color>
+    <color name="shop_details2">#b4282d</color>
+    <color name="shop_details_line">#FAFAFA</color>
+    <color name="shop_buttonBg">#6DB0FF</color>
+    <color name="my_login">#6AE1C4</color>
+    <color name="my">#2D77FF</color>
+    <color name="my2">#2D94FF</color>
+    <color name="yue_bg">#8AA5FF</color>
+    <color name="intergr_detail_bg">#F5F4F4</color>
+    <color name="intergr_ed">#239aff</color>
+    <color name="gray_but">#D7D7D7</color>
+    <color name="agent_bg">#ec7777</color>
+    <color name="happy_word">#D44809</color>
+    <color name="happy_bg">#FFC933</color>
+    <color name="userInfo_bg">#F9F9F9</color>
+    <color name="agents_word">#FFE8B6</color>
+    <color name="search_bg">#F4F4F4</color>
+    <color name="swing_bg">#F7FBFE</color>
+</resources>

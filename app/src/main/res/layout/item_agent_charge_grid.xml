@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_charge_ll"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/item_charge_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100元"
+            android:textColor="@color/home_word"
+            android:textSize="14sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/item_charge_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="实际到账2500条短信"
+            android:textSize="12sp"
+            android:textColor="@color/shop_word"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

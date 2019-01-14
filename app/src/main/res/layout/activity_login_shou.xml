@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".view.activity.LoginShouActivity">
+
+    <include layout="@layout/activity_common" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale_gray" />
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+    <!- android:gestureStrokeType手势是否需要一笔完成-->
+    <com.leo.library.view.IndicatorView
+        android:id="@+id/id_indicator_view"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/pale_gray"
+        app:column="3"
+        app:normalDrawable="@drawable/shape_white_indicator"
+        app:padding="8dp"
+        app:row="3"
+        app:selectedDrawable="@drawable/shape_orange_indicator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制解锁手势"
+        android:textColor="#000"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/id_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="-30dp">
+
+        <com.leo.library.view.GestureContentView
+            android:id="@+id/id_gesture_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:column="3"
+            app:erroDrawable="@drawable/gesture_node_wrong"
+            app:erroStrokeColor="#ff0000"
+            app:normalDrawable="@drawable/gesture_node_normal"
+            app:normalStrokeColor="@color/shop_buttonBg"
+            app:padding="50dp"
+            app:row="3"
+            app:selectedDrawable="@drawable/gesture_node_pressed"
+            app:strokeWidth="4dp" />
+        <RelativeLayout
+            android:id="@+id/login_ss_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/login_ss_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记密码"
+                android:textSize="14sp"
+                android:textColor="@color/home_word"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/login_ss_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改密码"
+                android:textSize="14sp"
+                android:textColor="@color/home_word"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

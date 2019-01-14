@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充的颜色 -->
+    <!--<size android:width="3dp" />-->
+
+    <solid android:color="@color/white" />
+    <corners android:radius="4dp"></corners>
+    <stroke
+        android:width="1dp"
+        android:color="@color/my" />
+
+   <!-- <padding
+        android:left="15dp"
+        android:right="15dp"/>-->
+</shape >

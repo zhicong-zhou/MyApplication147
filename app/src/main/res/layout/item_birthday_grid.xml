@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/item_silici_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <com.jzkl.util.ImageViewPlus
+            android:id="@+id/item_silici_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/pop_shop_img"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/item_silici_name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="03517176991"
+            android:textColor="@color/comment_word"
+            android:gravity="center"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/item_silici_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CheckBoxTheme"
+        android:focusableInTouchMode="false"
+        android:padding="5dp"
+        android:checked="false"
+        android:layout_toRightOf="@+id/item_silici_ll"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="-6dp"/>
+</RelativeLayout>

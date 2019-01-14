@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/item_home_gimg"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true">
+            <TextView
+                android:id="@+id/item_home_gtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_word"
+                android:text="88元自助卷"
+                android:textSize="14sp"
+                android:singleLine="true"/>
+            <TextView
+                android:id="@+id/item_home_gname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_word"
+                android:text="汉山拿"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_home_gimg"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/my_bg"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

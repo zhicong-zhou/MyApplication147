@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/item_silici1_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/soli_bithday_xz"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+            <com.jzkl.util.ImageViewPlus
+                android:id="@+id/item_silici1_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/user_head"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_marginTop="13.2dp"
+                android:layout_marginLeft="1.25dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_silici1_name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="035171"
+            android:textColor="@color/comment_word"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:singleLine="true"/>
+    </LinearLayout>
+</RelativeLayout>
